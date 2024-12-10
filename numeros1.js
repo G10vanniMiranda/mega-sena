@@ -8,11 +8,11 @@ function gerarNumeroEntre(min, max, tempo){
     })
 }
 
-Promise.ali([
+Promise.all([
     gerarNumeroEntre(1, 60, 1000),
     gerarNumeroEntre(1, 60, 1000),
     gerarNumeroEntre(1, 60, 1000),
     gerarNumeroEntre(1, 60, 1000),
     gerarNumeroEntre(1, 60, 1000)
 ])
-    .then(valores => console.log(valores))
+.then(valores => console.log(valores))
